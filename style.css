@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+    
+}
+
+body{
+    background-image: url(highquality.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1200px;
+    margin-left: 160px;
+}
+
+.body background-image {
+    width: 120px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    margin-left: 20px;
+}
+
+
+.input-container {
+    width: 200%;
+    height: 100%;
+    max-width: 700px;
+    max-height: 200px;
+    text-align: center;
+    padding: 25px;
+}
+
+.input-container input {
+    border:none;
+    outline:none;
+    padding: 20px;
+    margin-block: 12px;
+    border-radius: 10px;
+    font-size: 25px;
+    
+}
+
+.input-container input[type="text"] {
+    width: 70%;
+}
+
+.input-container input[type="button"] {
+    background-color: #d98e89;
+    color: #fff;
+    font-weight: 800;
+    margin-left: -5px;
+    cursor: pointer;
+    padding: 18px 36px;
+    border-style:outset;
+    border-color:#89d9ac ;
+}
+
+.input-container input[type="button"]:hover {
+    background-color: #89d9ac;
+}
+
+ul {
+    width: 600px;
+    margin-top: 40px;
+    margin-right: 0px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+
+ul li {
+    list-style-type: none;
+    cursor: pointer;
+    margin-block-end: 12px;
+    border-radius: 8px;
+    border: 0.125px solid #a19f9f;
+    padding: 6px 12px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.7s;
+}
+
+ul li:hover {
+    background-color: #cbcaca;
+}
+
+ul li p {
+    flex-grow: 1;
+    padding: 2px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.deleteBtn {
+    color:#d98e89;
+}
+
+.editBtn {
+    color:#89d9ac;
+}   
+
+
+/*  CSS Code for Responsiveness */
+
+@media screen and (max-width: 1000px) {
+    .container{
+        width: 100%;
+    }
+};
